@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/bbcodes.dtd">
+<data>
+	<import>
+		<bbcode name="tex">
+			<classname>TexBBCode</classname>
+			<allowedchildren>none</allowedchildren>
+			<sourcecode>1</sourcecode>
+			<wysiwygicon>texM.png</wysiwygicon>
+		</bbcode>
+	</import>
+</data>
