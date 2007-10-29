@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/options.dtd">
+<data>
+	<import>
+		<options>
+			<option name="message_bbcode_tex_cgibin">
+				<categoryname>message.default</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue><![CDATA[/cgi-bin]]></defaultvalue>
+			</option>
+		</options>
+	</import>
+</data>

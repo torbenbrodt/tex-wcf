@@ -15,7 +15,7 @@ class TexBBCode implements BBCode {
 	 */
 	public function getParsedTag($openingTag, $content, $closingTag, BBCodeParser $parser) {
 		if ($parser->getOutputType() == 'text/html') {
-			return $content;
+			return '<img src="'.MESSAGE_BBCODE_TEX_CGIBIN.'/mimetex.cgi?'.rawurlencode($content).'" alt="" />';
 		}
 		else if ($parser->getOutputType() == 'text/plain') {
 			return $content;

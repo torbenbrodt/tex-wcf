@@ -23,6 +23,7 @@
 	<instructions type="install">
 		<files>files.tar</files>
 		<bbcodes>bbcodes.xml</bbcodes>
+		<script>acp/install.php</script>
 		<languages languagecode="de">de.xml</languages>
 		<languages languagecode="de-informal">de-informal.xml</languages>
 		<languages languagecode="en">en.xml</languages>
