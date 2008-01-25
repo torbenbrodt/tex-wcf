@@ -5,6 +5,7 @@
 		<packagename>TeX BBCode</packagename>
 		<packageDescription><![CDATA[BBCode for TeX]]></packageDescription>
 		<packageDescription languagecode="de"><![CDATA[BBCode für TeX]]></packageDescription>
+		<packageDescription languagecode="fr"><![CDATA[BBCode pour TeX]]></packageDescription>
 		<version>0.1.0</version>
 		<date>DATE</date>
 		<plugin>com.woltlab.wcf.data.message.bbcode</plugin>
