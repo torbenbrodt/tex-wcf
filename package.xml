@@ -3,12 +3,13 @@
 <package name="de.easy-coding.wcf.data.message.bbcode.tex">
 	<packageinformation>
 		<packagename>TeX BBCode</packagename>
-		<packageDescription><![CDATA[BBCode for TeX]]></packageDescription>
-		<packageDescription languagecode="de"><![CDATA[BBCode für TeX]]></packageDescription>
-		<packageDescription languagecode="fr"><![CDATA[BBCode pour TeX]]></packageDescription>
+		<packagedescription><![CDATA[BBCode for TeX]]></packagedescription>
+		<packagedescription languagecode="de"><![CDATA[BBCode für TeX]]></packagedescription>
+		<packagedescription languagecode="fr"><![CDATA[BBCode pour TeX]]></packagedescription>
 		<version>0.1.0</version>
 		<date>DATE</date>
 		<plugin>com.woltlab.wcf.data.message.bbcode</plugin>
+		<isunique>1</isunique>
 	</packageinformation>
 	
 	<authorinformation>
