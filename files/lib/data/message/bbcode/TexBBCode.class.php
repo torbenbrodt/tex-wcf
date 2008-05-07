@@ -7,7 +7,7 @@ require_once(WCF_DIR.'lib/data/message/bbcode/BBCode.class.php');
  *
  * @author      Torben Brodt
  * @package     com.woltlab.wcf.data.message.bbcode.tex
- * @license	GNU Lesser General Public License <http://opensource.org/licenses/lgpl-3.0.html>
+ * @license	GNU General Public License <http://opensource.org/licenses/gpl-3.0.html>
  */
 class TexBBCode implements BBCode {
 	/**
@@ -15,7 +15,7 @@ class TexBBCode implements BBCode {
 	 */
 	public function getParsedTag($openingTag, $content, $closingTag, BBCodeParser $parser) {
 		if ($parser->getOutputType() == 'text/html') {
-			return '<img src="'.MESSAGE_BBCODE_TEX_CGIBIN.'/mimetex.cgi?'.rawurlencode($content).'" alt="" />';
+			return '<img src="'.MESSAGE_BBCODE_TEX_CGIBIN.'?'.rawurlencode($content).'" alt="" />';
 		}
 		else if ($parser->getOutputType() == 'text/plain') {
 			return $content;

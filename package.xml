@@ -4,9 +4,9 @@
 	<packageinformation>
 		<packagename>TeX BBCode</packagename>
 		<packagedescription><![CDATA[BBCode for TeX]]></packagedescription>
-		<packagedescription languagecode="de"><![CDATA[BBCode für TeX]]></packagedescription>
-		<packagedescription languagecode="fr"><![CDATA[BBCode pour TeX]]></packagedescription>
-		<version>0.1.0</version>
+		<packagedescription language="de"><![CDATA[BBCode für TeX]]></packagedescription>
+		<packagedescription language="fr"><![CDATA[BBCode pour TeX]]></packagedescription>
+		<version>1.0.0</version>
 		<date>DATE</date>
 		<plugin>com.woltlab.wcf.data.message.bbcode</plugin>
 		<isunique>1</isunique>
@@ -25,13 +25,10 @@
 	<instructions type="install">
 		<files>files.tar</files>
 		<bbcodes>bbcodes.xml</bbcodes>
-		<script>acp/install.php</script>
 		<options>options.xml</options>
 		<languages languagecode="de">de.xml</languages>
 		<languages languagecode="de-informal">de-informal.xml</languages>
 		<languages languagecode="en">en.xml</languages>
-		<languages languagecode="fr">fr.xml</languages>
-		<languages languagecode="it">it.xml</languages>
 	</instructions>
 </package>
 

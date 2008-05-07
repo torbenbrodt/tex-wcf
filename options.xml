@@ -6,7 +6,7 @@
 			<option name="message_bbcode_tex_cgibin">
 				<categoryname>message.default</categoryname>
 				<optiontype>text</optiontype>
-				<defaultvalue><![CDATA[/cgi-bin]]></defaultvalue>
+				<defaultvalue><![CDATA[/cgi-bin/mimetex.cgi]]></defaultvalue>
 			</option>
 		</options>
 	</import>
