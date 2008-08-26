@@ -6,6 +6,7 @@
 		<packagedescription><![CDATA[BBCode for TeX]]></packagedescription>
 		<packagedescription language="de"><![CDATA[BBCode für TeX]]></packagedescription>
 		<packagedescription language="fr"><![CDATA[BBCode pour TeX]]></packagedescription>
+		<packagedescription language="hr"><![CDATA[BBCode za TeX]]></packagedescription>
 		<version>1.0.0</version>
 		<date>DATE</date>
 		<plugin>com.woltlab.wcf.data.message.bbcode</plugin>
@@ -29,6 +30,7 @@
 		<languages languagecode="de">de.xml</languages>
 		<languages languagecode="de-informal">de-informal.xml</languages>
 		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="hr">hr.xml</languages>
 	</instructions>
 </package>
 
