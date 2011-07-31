@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/eventListeners.dtd">
 <data>	
-	<import>
+	<delete>
 		<eventlistener>
 			<eventclassname>ThreadAddForm</eventclassname>
 			<eventname>assignVariables</eventname>
 			<inherit>1</inherit>
 			<listenerclassfile>lib/system/event/listener/TexMessageFormListener.class.php</listenerclassfile>
 		</eventlistener>
-	</import>
+	</delete>
 </data>

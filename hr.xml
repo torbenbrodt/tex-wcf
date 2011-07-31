@@ -4,9 +4,4 @@
 	<category name="wcf.bbcode">
 		<item name="wcf.bbcode.tex.title"><![CDATA[TeX]]></item>
 	</category>
-
-	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.message_bbcode_tex_cgibin"><![CDATA[mimeTeX]]></item>
-		<item name="wcf.acp.option.message_bbcode_tex_cgibin.description"><![CDATA[Kompletna putanja prema <a href="http://www.forkosh.com/mimetex.html">mimTeX</a>.cgi executable.]]></item>
-	</category>
 </language>
